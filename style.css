@@ -1,0 +1,51 @@
+   
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+:root
+{
+    --primary-colour:#DC2626;
+}
+body
+{
+    margin: 2rem auto;
+    max-width: 660px;
+    width: 100%;
+    font-family: "Montserrat",sans-serif;
+}
+.table
+{
+    text-align: center;
+       
+}
+td
+{
+    border-style: groove;
+    width: 150px;
+    text-align: center;   
+}
+th
+{
+    border-style:groove;
+    width: 90rem;
+    text-align: center;
+
+    
+}
+.input
+{
+    border-color: black;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: auto;
+    text-align: center;
+    padding: 1rem;
+}
+button
+{
+    margin: 0.5rem 10%;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border-color: var(--primary-colour);
+    background-color: var(--primary-colour);
+    color: white;
+
+}

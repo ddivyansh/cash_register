@@ -6,26 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register</title>
+    <link rel="stylesheet" href="/style.css">
 
 </head>
 
 <body>
-    <h1>Cash Register Manager</h1>
+    <h1 style="color: #DC2626;">Cash Register Manager</h1>
     <h2>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</h2>
-    <input type="text" placeholder="Enter bill amount: " id="bill">
+    <input class="input" type="text" placeholder="Enter bill amount: " id="bill">
 
     <br>
 
-    <input type="text" placeholder="Enter cash amt: " id="cash">
+    <input class="input" type="text" placeholder="Enter cash amt: " id="cash">
 
     <br>
     <button id="check">Check !</button>
     <hr>
     <h2>Return change</h2>
     <br>
-    <table>
+    <table class="table">
         <tr>
-            <th>
+            <th class>
                 Notes
             </th>
             <td>
@@ -91,7 +92,9 @@
             </td>
         </tr>
     </table>
-
+<footer style="text-align: center; margin-top: 5rem;">
+    <small style="text-align: center;">2021 | <a style="text-decoration: none; cursor: pointer; color: black;" href="https://github.com/ddivyansh" target="_blank">IamDivyansh</a> </small>
+</footer>
 </body>
 <script src="/app.js"></script>
 
