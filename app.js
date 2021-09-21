@@ -38,11 +38,11 @@ function clickHandlerOne() {
     billAmt = parseInt(bill.value);
     cashAmt = parseInt(cash.value);
     returnAmt = parseInt(cashAmt - billAmt);
-    console.log("bill :", billAmt);
-    console.log("cash: ", cashAmt);
-    console.log("return amt: ", returnAmt);
+    // console.log("bill :", billAmt);
+    // console.log("cash: ", cashAmt);
+    // console.log("return amt: ", returnAmt);
     if (cashAmt < billAmt)
-        console.log("You've inserted insufficent amt !");
+        alert("You've inserted insufficent amt !");
     else {
         console.log("the return is running: ");
         calculateChangeAmt(returnAmt);
